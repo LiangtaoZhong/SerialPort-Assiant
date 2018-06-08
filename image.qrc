@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>images/clean.png</file>
+        <file>images/close.png</file>
+        <file>images/new_file.png</file>
+        <file>images/pause.png</file>
+        <file>images/save.png</file>
+        <file>images/start.png</file>
+        <file>images/stop.png</file>
+        <file>images/about.png</file>
+        <file>images/find.png</file>
+        <file>images/set.png</file>
+        <file>images/shuxin.png</file>
+        <file>images/receive.png</file>
+    </qresource>
+</RCC>
