@@ -124,6 +124,9 @@ void MainWindow::ReadSerialPortData()//串口接收函数
     requestData = serial->readAll();
     RXD_Count+=requestData.length();
     showRxd2->setNum(RXD_Count);//显示接收到的额数据总个数；
+    if(ui->R_HEX->isChecked()){
+        requestData=requestData.toHex();
+    }
     if(!requestData.isEmpty())
     {
         if(ui->AutoLineFeed->isChecked()||ui->ShowTimeCheck->isChecked())
